@@ -1,0 +1,28 @@
+{
+  "name": "storybook-description-bug",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-alpha.53",
+    "@storybook/addon-interactions": "^7.0.0-alpha.53",
+    "@storybook/addon-links": "^7.0.0-alpha.53",
+    "@storybook/react": "^7.0.0-alpha.53",
+    "@storybook/react-vite": "^7.0.0-alpha.53",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "storybook": "^7.0.0-alpha.53",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
